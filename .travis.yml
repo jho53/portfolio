@@ -9,10 +9,10 @@ script:
 deploy:
   provider: pages
   skip_cleanup: true
-  github_token: $github_token
+  github_token: $GITHUB_TOKEN
   local_dir: build
   on:
     branch: master
 env:
   global:
-    github_token: fedae74a61d3fedfc9e61d07dd903667e5819c28
+    GITHUB_TOKEN: fedae74a61d3fedfc9e61d07dd903667e5819c28
