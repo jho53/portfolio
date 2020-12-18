@@ -15,4 +15,4 @@ deploy:
     branch: master
 env:
   global:
-    GITHUB_TOKEN: fedae74a61d3fedfc9e61d07dd903667e5819c28
+    GITHUB_TOKEN: a3ea7c6f05732ee02e226d468b013a7ce2aceb6b
