@@ -13,3 +13,6 @@ deploy:
   local_dir: build
   on:
     branch: master
+env:
+  global:
+    github_token: fedae74a61d3fedfc9e61d07dd903667e5819c28
