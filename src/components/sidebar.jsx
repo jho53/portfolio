@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 export default class Sidebar extends Component {
-  
+
   getYear() {
     return new Date().getFullYear();
   }
@@ -17,6 +17,7 @@ export default class Sidebar extends Component {
               <h1 id="colorlib-logo"><a href="index.html">Jimmy Ho</a></h1>
               <span className="email">Jim.eho97@gmail.com</span>
               <br></br>
+              <br></br>
             </div>
             <nav id="colorlib-main-menu" role="navigation" className="navbar">
               <div id="navbar" className="collapse">
@@ -31,16 +32,16 @@ export default class Sidebar extends Component {
             </nav>
             <nav id="colorlib-main-menu">
               <ul>
-                <li><a href="https://www.linkedin.com/in/jho53/" target="_blank" rel="noopener noreferrer"><i className="icon-linkedin2" /></a></li>
-                <li><a href="https://github.com/jho53" target="_blank" rel="noopener noreferrer"><i className="icon-github"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/jho53/" target="_blank" rel="noreferrer"><i className="icon-linkedin2" /></a></li>
+                <li><a href="https://github.com/jho53" target="_blank" rel="noreferrer"><i className="icon-github"></i></a></li>
               </ul>
             </nav>
             <div className="colorlib-footer">
               <p><small>
-                  Inspired by <a href="https://colorlib.com" target="_blank" rel="noopener noreferrer">Colorlib</a>
+                Inspired by <a href="https://colorlib.com" target="_blank">Colorlib</a>
               </small></p>
               <small>
-                © {this.getYear()} Jimmy Ho
+                Copyright © {this.getYear()}, All Rights Reserved
               </small>
             </div>
           </aside>
