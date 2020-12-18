@@ -13,6 +13,3 @@ deploy:
   local_dir: build
   on:
     branch: master
-env:
-  global:
-    GITHUB_TOKEN: a3ea7c6f05732ee02e226d468b013a7ce2aceb6b
