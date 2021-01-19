@@ -13,9 +13,9 @@ export default class About extends Component {
                                         <div className="about-desc">
                                             <span className="heading-meta">Who Am I?</span>
                                             <h2 className="colorlib-heading">Hi there, I'm Jimmy!</h2>
-                                            <p>I'm a recent graduate from BCIT based in Vancouver 🇨🇦 with experience in <strong>Web/Mobile Development, DevOps, and Cybersecurity</strong>. As a side-job, I'm working on freelance projects for local businesses. My diverse academic background and project experience allowed me to build a wide and versatile skill set to tackle interesting and challenging tasks ahead. I'm eager to offer my passionate dedication for knowledge and quality to improve and build on new and existing projects.
+                                            <p>I'm a BCIT graduate based in Vancouver 🇨🇦 with experience in <strong>Web and Mobile Development </strong> with a passion for <strong> DevOps, and Cybersecurity</strong>. I’m a detail-oriented individual with a diverse academic, work and project experience that allowed me to build and refine a wide and versatile skill set to tackle interesting and challenging tasks ahead. I'm eager to offer my passionate dedication for knowledge and quality to improve and build on new and existing projects.
                                             </p>
-                                            <p>I'm currently looking for a position that will allow me to further polish my skills in the IT industry!</p>
+                                            <p>I'm currently looking for a full-time position that will allow me to further polish my skills in the IT industry!</p>
                                         </div>
                                     </div>
                                 </div>

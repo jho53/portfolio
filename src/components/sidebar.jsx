@@ -37,9 +37,9 @@ export default class Sidebar extends Component {
               </ul>
             </nav>
             <div className="colorlib-footer">
-              <p><small>
+              {/* <p><small>
                 Inspired by <a href="https://colorlib.com" target="_blank" rel="noreferrer">Colorlib</a>
-              </small></p>
+              </small></p> */}
               <small>
                 Copyright © {this.getYear()}, All Rights Reserved
               </small>
